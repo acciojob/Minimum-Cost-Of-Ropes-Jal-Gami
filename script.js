@@ -1,4 +1,4 @@
-function minCostToConnectRopes() {
+function calculateMinCost() {
   // Get input from user
   const ropeLengthsInput = document.getElementById('rope-lengths');
   const ropeLengths = ropeLengthsInput.value.split(',').map(Number);
