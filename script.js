@@ -20,7 +20,7 @@ function calculateMinCost() {
   
   // Display the result
   const resultDiv = document.getElementById('result');
-  resultDiv.innerHTML = `The minimum cost to connect the ropes is: ${totalCost}`;
+  resultDiv.innerHTML = totalCost;
 }
 
 // Define a MinHeap class
